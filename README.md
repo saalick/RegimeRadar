@@ -1,6 +1,6 @@
 # NQ Momentum Regime Detector & Alert System
 
-A lightweight, real-time dashboard that classifies the current NASDAQ (NQ) market into **3–4 regimes** (Trend Day, Choppy, Volatile, Quiet) using a simple ML model. It’s a **context engine**: it tells you how the market is behaving so you can pick the right playbook — not a buy/sell signal bot.
+A lightweight, real-time dashboard that classifies the current NASDAQ (NQ) market into **3–4 regimes** (Trend Day, Choppy, Volatile, Quiet) using a simple ML model. It’s a **context engine**: it tells you how the market is behaving so you can pick the right playbook, not a buy/sell signal bot.
 
 ## Features
 
