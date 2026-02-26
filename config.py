@@ -25,25 +25,34 @@ REGIMES = {
     "quiet": "Quiet / Low-Vol",
 }
 
+# --- Warm Earth color palette ---
 REGIME_COLORS = {
-    "trend_up": "#22c55e",   # green
-    "choppy": "#ef4444",     # red
-    "volatile": "#eab308",   # yellow
-    "quiet": "#3b82f6",      # blue
+    "trend_up": "#92400e",   # amber-800 (deep warm amber)
+    "choppy":   "#c2410c",   # orange-700 (rust/burnt orange)
+    "volatile": "#b45309",   # amber-700 (golden amber)
+    "quiet":    "#78716c",   # stone-500 (warm grey-brown)
 }
 
 REGIME_EMOJI = {
-    "trend_up": "🟢",
-    "choppy": "🔴",
+    "trend_up": "🟠",
+    "choppy":   "🔴",
     "volatile": "🟡",
-    "quiet": "🔵",
+    "quiet":    "🪨",
+}
+
+# Background tints for regime badge (hex with alpha via CSS)
+REGIME_BG = {
+    "trend_up": "#fef3c7",   # amber-100
+    "choppy":   "#ffedd5",   # orange-100
+    "volatile": "#fef9c3",   # yellow-100
+    "quiet":    "#f5f5f4",   # stone-100
 }
 
 PLAYBOOKS = {
     "trend_up": "Favor breakout entries, trail stops, don't fade.",
-    "choppy": "Fade extremes, target VWAP, tight stops.",
+    "choppy":   "Fade extremes, target VWAP, tight stops.",
     "volatile": "Reduce size, widen stops, or sit out.",
-    "quiet": "Watch for range break, small size until confirmation.",
+    "quiet":    "Watch for range break, small size until confirmation.",
 }
 
 # --- Labeling rules (for auto-labeling historical days) ---
