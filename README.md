@@ -12,7 +12,7 @@ A lightweight, real-time dashboard that classifies the current NASDAQ (NQ) marke
 ## Quick start
 
 ```bash
-cd nq-dashboard
+cd RegimeRadar
 python -m venv .venv
 source .venv/bin/activate   # or .venv\Scripts\activate on Windows
 pip install -r requirements.txt
@@ -35,7 +35,7 @@ Open the URL (e.g. http://localhost:8501). Enable “Auto-refresh every 5 min”
 ## Project layout
 
 ```
-nq-dashboard/
+RegimeRadar/
 ├── data/
 │   └── fetch_data.py       # Historical + live bars (yfinance)
 ├── features/
