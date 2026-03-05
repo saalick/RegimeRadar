@@ -1,6 +1,6 @@
 """
 Pull historical and live OHLCV bars for NQ proxy (QQQ).
-Uses yfinance; supports 5m (and 1m with 7d limit for free tier).
+Uses yahoo finance; supports 5m (and 1m with 7d limit for free tier plan).
 """
 
 import os
