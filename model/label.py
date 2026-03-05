@@ -1,6 +1,6 @@
 """
 Auto-label historical days into regimes using simple rules:
-Trend Day, Choppy, Volatile, Quiet.
+Trend Day, Choppy, Volatile, Quiet market.
 """
 
 import numpy as np
