@@ -289,7 +289,7 @@ with st.expander("🔍 Current feature values"):
 # ── Footer ─────────────────────────────────────────────────────────────────────
 st.divider()
 st.caption(
-    "🌾 NQ Regime Detector · Retrain with `python model/train.py` · Not financial advice."
+    " NQ Regime Detector · Retrain with `python model/train.py` · Not financial advice."
 )
 
 # Auto-refresh
