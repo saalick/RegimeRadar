@@ -1,8 +1,4 @@
-"""
-Feature engineering for regime classifier.
-~10–12 lean features: ATR, ATR ratio, EMA slopes, RSI, volume ratio,
-range position, VWAP crosses, opening range breakout.
-"""
+
 
 import numpy as np
 import pandas as pd
